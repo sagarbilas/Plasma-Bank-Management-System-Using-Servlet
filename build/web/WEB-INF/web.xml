@@ -4,9 +4,25 @@
         <servlet-name>ValidateLoginServlet</servlet-name>
         <servlet-class>Servlets.ValidateLoginServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ViewPlasmaBranches</servlet-name>
+        <servlet-class>Servlets.ViewPlasmaBranches</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AddPlasmaBranches</servlet-name>
+        <servlet-class>Servlets.AddPlasmaBranches</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ValidateLoginServlet</servlet-name>
         <url-pattern>/validateloginservlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ViewPlasmaBranches</servlet-name>
+        <url-pattern>/viewplasmabranches</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddPlasmaBranches</servlet-name>
+        <url-pattern>/addplasmabranches</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

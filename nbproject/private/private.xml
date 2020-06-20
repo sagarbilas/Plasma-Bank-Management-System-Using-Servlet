@@ -3,8 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Mohammed/Documents/NetBeansProjects/PlasmaBankManagementSystem/src/java/Servlets/LoginValidateServlet.java</file>
+            <file>file:/C:/Users/Mohammed/Documents/NetBeansProjects/PlasmaBankManagementSystem/src/java/Servlets/ValidateLoginServlet.java</file>
+            <file>file:/C:/Users/Mohammed/Documents/NetBeansProjects/PlasmaBankManagementSystem/src/java/Models/PlasmaBranches.java</file>
+            <file>file:/C:/Users/Mohammed/Documents/NetBeansProjects/PlasmaBankManagementSystem/src/java/Servlets/AddPlasmaBranches.java</file>
+            <file>file:/C:/Users/Mohammed/Documents/NetBeansProjects/PlasmaBankManagementSystem/src/java/Servlets/ViewPlasmaBranches.java</file>
             <file>file:/C:/Users/Mohammed/Documents/NetBeansProjects/PlasmaBankManagementSystem/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/Mohammed/Documents/NetBeansProjects/PlasmaBankManagementSystem/web/addPlasmaBranches.html</file>
+            <file>file:/C:/Users/Mohammed/Documents/NetBeansProjects/PlasmaBankManagementSystem/src/java/Dao/PlasmaBranchesDao.java</file>
             <file>file:/C:/Users/Mohammed/Documents/NetBeansProjects/PlasmaBankManagementSystem/web/index.html</file>
         </group>
     </open-files>

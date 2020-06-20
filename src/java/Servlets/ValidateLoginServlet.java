@@ -50,7 +50,12 @@ public class ValidateLoginServlet extends HttpServlet {
                     flag = true;
                     //response.sendRedirect("./welcome");
                     //response.sendRedirect("https://www.studytonight.com");  
-                   response.sendRedirect("welcome.html");
+                   //response.sendRedirect("welcome.html");
+                   response.sendRedirect("./viewplasmabranches");
+                   if(access_role.equals("super-admin"))
+                   {
+                       response.sendRedirect("/viewplasmabranches");
+                   }
                 }
             }
             if (flag == false) {

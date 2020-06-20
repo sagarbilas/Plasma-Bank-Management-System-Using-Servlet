@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>Add New Branches</h1>
+<form action="./addplasmabranches" method="post">
+    <table>
+        <tr><td>Branch Name</td><td><input type="text" name="branch_name"/></td></tr>
+        <tr><td>Branch Location</td><td><input type="text" name="branch_location"/></td></tr>
+        <tr><td>Branch USer Name</td><td><input type="text" name="branch_user_name"/></td></tr>
+        <tr><td>Password</td><td><input type="text" name="password"/></td></tr>
+        
+        <tr><td>Role</td><td>
+        <select name="role" style="width:150px">
+        <option>sub-admin</option>
+        </select>
+        </td></tr>
+        
+        <tr><td>Contact Number</td><td><input type="text" name="contact_number"/></td></tr>
+
+        
+        <tr><td colspan="2"><input type="submit" value="Save Plasma Branch"/></td></tr>
+    </table>
+</form>
+
+<br/>
+<a href="ViewServlet">view Plasma Branches</a>
+
+</body>
+</html>
