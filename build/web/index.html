@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="ISO-8859-1">
+        <title>Login Application</title>
+    </head>
+
+    <body>
+        <div style="height: 100px; width: 600px; margin-left: 35%; color: fuchsia; font-size: 30px; ">Welcome to Plasma Bank Management System</div>
+        <form action="./validateloginservlet">
+            <div style="height: 250px; width: 400px; border-color: greenyellow; border-width: 2px; border-style: solid; margin-left: 40%; background-color: bisque">
+                <h3 style="margin-left: 30%; color: darkorange; font-size: 30px; ">LogIn</h3>
+                <table>
+                    <tr style="  color: darkblue;">
+                        <td>User Id:</td>
+                        <td><input type="text" name="username"></td>
+                    </tr>
+
+                    <tr style=" text-align: center; color: darkblue;">
+                        <td>Password:</td>
+                        <td><input type="password" name="password"></td>
+                    </tr>
+
+                    <tr style="color: darkblue;">
+                        <td>
+                            Role
+                        </td>
+                        <td>
+                            <select name="role" >
+                                <option>-----</option>
+                                <option>super-admin</option>
+                                <option>sub-admin</option>
+                                <option>plasma-seeker</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" value="Login"></td>
+                    </tr>
+                </table>
+            </div>
+        </form>
+        </br></br>
+        <div style="height: 30px; width: 500px; margin-left: 35%; color: fuchsia; font-size: 20px; ">Are You a New plasma Seeker? Not Registered Yet?</div>
+        <div style="margin-left: 45%;">
+            <a href='./registernewplasmaseeker'> Register Here </a>
+        </div>
+   
+    </body>
+</html>
