@@ -18,7 +18,7 @@ public class ViewPlasmaBranches extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
-        
+        out.print("logged in as super-admin");
         out.println("<h1>Plasma Bank Branch List</h1>");
 
         List<PlasmaBranches> list = PlasmaBranchesDao.getAllPlasmaBranches();

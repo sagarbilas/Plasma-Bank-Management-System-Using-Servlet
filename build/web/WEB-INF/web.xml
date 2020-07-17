@@ -12,6 +12,22 @@
         <servlet-name>AddPlasmaBranches</servlet-name>
         <servlet-class>Servlets.AddPlasmaBranches</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ViewSubAdminWelcomePage</servlet-name>
+        <servlet-class>Servlets.ViewSubAdminWelcomePage</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RegisterNewPlasmaSeeker</servlet-name>
+        <servlet-class>Servlets.RegisterNewPlasmaSeeker</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ViewPlasmaSeekerWelcomePage</servlet-name>
+        <servlet-class>Servlets.ViewPlasmaSeekerWelcomePage</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AddNewPlasmaRequest</servlet-name>
+        <servlet-class>Servlets.AddNewPlasmaRequest</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ValidateLoginServlet</servlet-name>
         <url-pattern>/validateloginservlet</url-pattern>
@@ -23,6 +39,22 @@
     <servlet-mapping>
         <servlet-name>AddPlasmaBranches</servlet-name>
         <url-pattern>/addplasmabranches</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ViewSubAdminWelcomePage</servlet-name>
+        <url-pattern>/viewsubadminwelcomepage</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RegisterNewPlasmaSeeker</servlet-name>
+        <url-pattern>/registernewplasmaseeker</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ViewPlasmaSeekerWelcomePage</servlet-name>
+        <url-pattern>/viewplasmaseekerwelcomepage</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddNewPlasmaRequest</servlet-name>
+        <url-pattern>/addnewplasmarequest</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

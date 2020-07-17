@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>Request For New Plasma Bags</h1>
+<form action="./addnewplasmarequest" method="post">
+    <table>
+        <tr><td>Name</td><td><input type="text" name="name"/></td></tr>        
+        <tr><td>Location</td><td>
+        <select name="location" style="width:150px">
+        <option>Dhaka</option>
+        <option>Rajshahi</option>
+        <option>Khulna</option>
+        <option>Barishal</option>
+        <option>Chittagong</option>
+        </select>
+        </td></tr>
+        
+        <tr><td>Address</td><td><input type="text" name="address"/></td></tr>
+        <tr><td>Nid</td><td><input type="text" name="nid"/></td></tr>
+        <tr><td>Plasma Type</td><td><input type="text" name="plasma_type"/></td></tr>
+        <tr><td>Number of Bags of Plasma</td><td><input type="text" name="number_of_bags_of_plasma"/></td></tr>    
+        <tr><td>Contact Number</td><td><input type="text" name="contact_number"/></td></tr>
+
+        
+        <tr><td colspan="2"><input type="submit" value="Send Plasma Request"/></td></tr>
+    </table>
+</form>
+
+<br/>
+<a href="./viewplasmabranches">view Plasma Branches</a>
+
+</body>
+</html>

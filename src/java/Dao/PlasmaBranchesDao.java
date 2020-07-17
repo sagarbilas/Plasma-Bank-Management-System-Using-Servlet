@@ -17,7 +17,7 @@ public class PlasmaBranchesDao {
         Connection con = null;
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost/plasmabankmanagementsystem", "root", "root");
+            con = DriverManager.getConnection("jdbc:mysql://localhost/plasmabankmanagementsystem", "root", "");
 
         } catch (Exception e) {
             System.out.println(e);

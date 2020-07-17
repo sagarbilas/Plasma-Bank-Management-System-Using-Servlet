@@ -39,7 +39,7 @@ public class ValidateLoginServlet extends HttpServlet {
             //Connection con = DriverManager.getConnection("jdbc:mysql://localhost:8080/testdemo", "root", "root");
             //con = DriverManager.getConnection("jdbc:mysql://localhost/login", "root", "");
 
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost/plasmabankmanagementsystem", "root", "root");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost/plasmabankmanagementsystem", "root", "");
 
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery("Select * from logintable");
@@ -51,10 +51,19 @@ public class ValidateLoginServlet extends HttpServlet {
                     //response.sendRedirect("./welcome");
                     //response.sendRedirect("https://www.studytonight.com");  
                    //response.sendRedirect("welcome.html");
-                   response.sendRedirect("./viewplasmabranches");
+                  
+                   //response.sendRedirect("./viewplasmabranches");
                    if(access_role.equals("super-admin"))
                    {
-                       response.sendRedirect("/viewplasmabranches");
+                       response.sendRedirect("./viewplasmabranches");                       
+                   }
+                   else if(access_role.equals("sub-admin"))
+                   {
+                       response.sendRedirect("./viewsubadminwelcomepage"); 
+                   }
+                   else if(access_role.equals("plasma-seeker"))
+                   {
+                       response.sendRedirect("./viewplasmaseekerwelcomepage"); 
                    }
                 }
             }
